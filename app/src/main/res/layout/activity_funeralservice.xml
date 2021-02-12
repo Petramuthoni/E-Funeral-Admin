@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginStart="15dp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginEnd="16dp"
+    android:layout_marginRight="16dp"
+    android:layout_margin="16dp"
+    android:scrollbars="vertical"
+    app:cardElevation="15dp"
+    tools:context=".funeralservice"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/r2"
+            android:background="@color/colorPrimaryDark"
+            android:layout_alignParentTop="true">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Register Deceased Body Preservation"
+                android:textSize="20dp"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+
+                android:textAlignment="center"
+                android:layout_marginTop="10dp"/>
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical"
+            android:id="@+id/r45"
+            android:layout_marginTop="67dp"
+            android:layout_below="@+id/r2"
+
+            >
+
+
+
+
+
+            <EditText
+                android:id="@+id/bereaved_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginTop="17dp"
+                android:hint="Bereaved Name"
+                android:background="@drawable/round_border"
+                android:inputType="text"
+                android:padding="12dp"
+
+                />
+            <EditText
+                android:id="@+id/bereaved_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:hint="Bereaved Phone Number"
+                android:layout_below="@id/bereaved_name"
+                android:background="@drawable/round_border"
+                android:inputType="number"
+                android:padding="12dp"
+
+                />
+
+            <EditText
+                android:id="@+id/deceased_names"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:hint="Deceased Full Name"
+
+
+                android:textColor="@android:color/black"
+                android:layout_below="@id/bereaved_phone"
+                android:background="@drawable/round_border"
+                android:inputType="text"
+                android:padding="12dp"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gender"
+                android:id="@+id/txtgender"
+                android:layout_marginStart="15dp"
+                android:textColor="@android:color/black"
+                android:layout_below="@+id/deceased_names"/>
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtgender"
+                android:layout_marginStart="50dp"
+                android:id="@+id/radiogender">
+
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radiomale"
+                    android:text="Male"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radiofemale"
+                    android:text="Female"/>
+                </RadioGroup>
+            <EditText
+                android:id="@+id/startdate_booking"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:hint="Start Date eg 21/10/2020"
+                android:background="@drawable/round_border"
+                android:inputType="text"
+                android:padding="12dp"
+                android:focusable="false"
+                android:layout_below="@+id/radiogender"/>
+
+            <!--<EditText-->
+                <!--android:id="@+id/enddate_booking"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_margin="5dp"-->
+                <!--android:hint="End Date eg 21/10/2020"-->
+                <!--android:background="@drawable/round_border"-->
+                <!--android:inputType="text"-->
+                <!--android:padding="12dp"-->
+                <!--android:focusable="false"-->
+                <!--android:layout_below="@+id/startdate_booking"-->
+
+                <!--/>-->
+            <Button
+                android:id="@+id/deceased_booking_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/startdate_booking"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/round_bg"
+                android:text="Submit Registarion"
+                android:textColor="@android:color/white"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total Presevation Daya ="
+                android:visibility="gone"
+                android:id="@+id/txttotalamount"
+                android:layout_marginStart="15dp"
+                android:textColor="@android:color/black"
+                android:layout_below="@+id/enddate_booking"/>
+
+
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+</ScrollView>

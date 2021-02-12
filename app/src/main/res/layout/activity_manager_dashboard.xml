@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ManagerDashboard">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:id="@+id/r56"
+                android:background="@color/colorPrimaryDark"
+                android:layout_alignParentTop="true">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Manager Dashboard"
+                    android:textSize="30dp"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+
+                    android:textAlignment="center"
+                    android:layout_marginTop="10dp"/>
+
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:layout_marginTop="70dp"
+                    android:orientation="horizontal">
+                    <android.support.v7.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="130dp"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        app:cardCornerRadius="20dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+                            <ImageView
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
+                                android:id="@+id/occupancybtn"
+                                android:src="@drawable/occupancy"
+                                android:layout_centerInParent="true"
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/name1"
+                                android:text="Occupancy Report"
+                                android:textSize="10sp"
+                                android:textStyle="bold"
+                                android:layout_centerInParent="true"
+                                android:layout_marginTop="3dp"
+                                android:textColor="@android:color/black"
+                                android:layout_below="@id/occupancybtn">
+
+                            </TextView>
+                        </RelativeLayout>
+                    </android.support.v7.widget.CardView>
+                    <android.support.v7.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="130dp"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        app:cardCornerRadius="20dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+                            <ImageView
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
+                                android:id="@+id/funeralhomepayment"
+                                android:src="@drawable/paymentgraph"
+                                android:layout_centerInParent="true"
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/name2"
+                                android:text="Payment Report"
+                                android:textSize="10sp"
+                                android:textStyle="bold"
+                                android:layout_centerInParent="true"
+                                android:layout_marginTop="3dp"
+                                android:textColor="@android:color/black"
+                                android:layout_below="@id/funeralhomepayment">
+
+                            </TextView>
+                        </RelativeLayout>
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:orientation="horizontal">
+                    <android.support.v7.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="130dp"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        app:cardCornerRadius="20dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+                            <ImageView
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
+                                android:id="@+id/hearsereport"
+                                android:src="@drawable/hearsereport"
+                                android:layout_centerInParent="true"
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/name3"
+                                android:text="Hearse Booking Report"
+                                android:textSize="10sp"
+                                android:textStyle="bold"
+                                android:layout_centerInParent="true"
+                                android:layout_marginTop="3dp"
+                                android:textColor="@android:color/black"
+                                android:layout_below="@id/hearsereport">
+
+                            </TextView>
+                        </RelativeLayout>
+                    </android.support.v7.widget.CardView>
+                    <android.support.v7.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="130dp"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        app:cardCornerRadius="20dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+                            <ImageView
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
+                                android:id="@+id/hearsepayment"
+                                android:src="@drawable/hearsepayment"
+                                android:layout_centerInParent="true"
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/name4"
+                                android:text="Herase Payment Report"
+                                android:textSize="10sp"
+                                android:textStyle="bold"
+                                android:layout_centerInParent="true"
+                                android:layout_marginTop="3dp"
+                                android:textColor="@android:color/black"
+                                android:layout_below="@id/hearsepayment">
+
+                            </TextView>
+                        </RelativeLayout>
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_width="180dp"
+                    android:layout_height="180dp"
+                    android:orientation="horizontal">
+                    <android.support.v7.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="130dp"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        app:cardCornerRadius="20dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+                            <ImageView
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
+                                android:id="@+id/morticnasreport"
+                                android:src="@drawable/registermorticians"
+                                android:layout_centerInParent="true"
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/name14"
+                                android:text="Registered Morticians"
+                                android:textSize="10sp"
+                                android:textStyle="bold"
+                                android:layout_centerInParent="true"
+                                android:layout_marginTop="3dp"
+                                android:textColor="@android:color/black"
+                                android:layout_below="@id/morticnasreport">
+
+                            </TextView>
+                        </RelativeLayout>
+                    </android.support.v7.widget.CardView>
+
+
+                </LinearLayout>
+                </ScrollView>
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,90 @@
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:layout_marginStart="15dp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginTop="20dp"
+    android:layout_marginEnd="16dp"
+    android:id="@+id/card_bookings"
+    android:layout_marginRight="16dp"
+    app:cardElevation="15dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:background="@color/backgroundcolor">
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:id="@+id/person_booking_name"
+            android:textColor="@android:color/white"
+            android:textSize="14sp"
+            android:layout_marginStart="5dp"
+            android:textStyle="bold"
+
+            />
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="Phone Number"
+            android:textColor="@android:color/white"
+            android:textSize="14sp"
+            android:id="@+id/person_booking_number"
+            android:textAlignment="viewEnd"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="5dp"
+            android:textStyle="bold"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Booking Date"
+            android:id="@+id/hearse_booking_date"
+            android:textColor="@android:color/white"
+            android:textSize="14sp"
+            android:layout_marginStart="5dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_marginTop="25dp"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hearse Name, Hearse Description"
+            android:id="@+id/hearse_name_description"
+            android:textColor="@android:color/white"
+            android:textSize="14sp"
+            android:layout_below="@+id/hearse_booking_date"
+            android:layout_marginStart="5dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Date Time"
+            android:id="@+id/hearsebooking_date_time"
+            android:textColor="@android:color/white"
+            android:textSize="14sp"
+            android:layout_below="@+id/hearse_name_description"
+            android:layout_marginStart="5dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+
+            />
+
+
+
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

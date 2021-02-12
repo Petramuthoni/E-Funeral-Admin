@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/checkA" android:title="Admit Deceased Body" android:icon="@drawable/ic_assignment_black_24dp"  android:iconTint="@color/backgroundcolor"/>
+
+        <item android:id="@+id/checkfr" android:title="Funeral Admissions" android:icon="@drawable/ic_touch_app_black_24dp"  android:iconTint="@color/backgroundcolor"/>
+        <item android:id="@+id/checkbrp" android:title="Preservation Payments" android:icon="@drawable/funds2"  android:iconTint="@color/backgroundcolor"/>
+        <item android:id="@+id/checkhb" android:title="Hearse Bookings" android:icon="@drawable/ic_assignment_black_24dp"  android:iconTint="@color/backgroundcolor"/>
+        <item android:id="@+id/checkhearsepayments" android:title="Hearse Payments" android:icon="@drawable/ic_attach_money_black_24dp"  android:iconTint="@color/backgroundcolor"/>
+        <item android:id="@+id/maintainpro" android:title="Maintain Products" android:icon="@drawable/ic_edit_black_24dp" />
+        <item android:id="@+id/checko" android:title="Orders" android:icon="@drawable/ic_card_giftcard_black_24dp" />
+        <item android:id="@+id/checkp" android:title="Order Payments" android:icon="@drawable/funds1"  android:iconTint="@color/backgroundcolor"/>
+
+        <!--<item android:id="@+id/donations" android:title="Post Donations Requests" android:icon="@drawable/funds1" />-->
+        <!--<item android:id="@+id/chat" android:title="Funeral Group Chat" android:icon="@drawable/ic_people_black_24dp"  android:iconTint="@color/backgroundcolor"/>-->
+
+
+
+    </group>
+
+
+</menu>

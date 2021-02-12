@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="5dp"
+    android:weightSum="100">
+    <TextView
+        android:id="@+id/tvname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="name"
+        android:layout_weight="33"
+        android:textSize="18sp"
+        />
+    <TextView
+        android:id="@+id/tvdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="date"
+        android:layout_weight="33"
+        android:textSize="18sp"
+
+        />
+    <TextView
+        android:id="@+id/tvamountpaid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="amount"
+        android:layout_weight="33"
+        android:textSize="18sp"
+
+        />
+
+</LinearLayout>

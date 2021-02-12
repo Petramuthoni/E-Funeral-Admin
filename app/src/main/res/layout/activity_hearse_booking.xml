@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginStart="15dp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginEnd="16dp"
+    android:layout_marginRight="16dp"
+    android:layout_margin="16dp"
+    android:scrollbars="vertical"
+    app:cardElevation="15dp"
+    tools:context=".HearseBookingActivity"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+  >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/r2"
+        android:background="@color/colorPrimaryDark"
+        android:layout_alignParentTop="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Book this Hearse"
+            android:textSize="20dp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+
+            android:textAlignment="center"
+            android:layout_marginTop="10dp"/>
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        android:id="@+id/r45"
+        android:layout_below="@+id/r2"
+
+        >
+
+
+
+
+        <ImageView
+            android:id="@+id/hearse_image_booking"
+            android:layout_width="366dp"
+            android:layout_height="199dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="7dp"
+             />
+        <EditText
+            android:id="@+id/user_booking_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hint="Your Name"
+            android:layout_below="@id/hearse_image_booking"
+            android:background="@drawable/round_border"
+            android:inputType="text"
+            android:padding="12dp"
+
+            />
+        <EditText
+            android:id="@+id/user_booking_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hint="Your Phone Number"
+            android:layout_below="@id/user_booking_name"
+            android:background="@drawable/round_border"
+            android:inputType="number"
+            android:padding="12dp"
+
+            />
+
+        <EditText
+            android:id="@+id/hearse_name_booking"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hint="Hearse Name"
+
+            android:enabled="false"
+            android:focusable="false"
+            android:textColor="@android:color/black"
+            android:layout_below="@id/user_booking_phone"
+            android:background="@drawable/round_border"
+            android:inputType="text"
+            android:padding="12dp"
+
+            />
+        <EditText
+            android:id="@+id/hearse_description_booking"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hint="Product Description"
+            android:enabled="false"
+            android:focusable="false"
+            android:textColor="@android:color/black"
+
+            android:layout_below="@id/hearse_name_booking"
+            android:background="@drawable/round_border"
+            android:inputType="text"
+            android:padding="12dp"
+
+            />
+
+        <EditText
+            android:id="@+id/hearse_date_booking"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hint="09/08/2020"
+            android:background="@drawable/round_border"
+            android:inputType="text"
+            android:padding="12dp"
+
+            android:layout_below="@+id/hearse_description_booking"
+
+            />
+        <Button
+            android:id="@+id/hearse_booking_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/hearse_date_booking"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/round_bg"
+            android:text="SUBMIT"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
+</ScrollView>

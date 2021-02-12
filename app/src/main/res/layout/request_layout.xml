@@ -1,0 +1,163 @@
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:layout_marginStart="15dp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginTop="20dp"
+    android:layout_marginEnd="16dp"
+    android:id="@+id/card_requests"
+    android:background="@color/colorPrimaryDark"
+    android:layout_marginRight="16dp"
+    app:cardElevation="15dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+       >
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="User Name"
+            android:id="@+id/person_bookingf_name"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            android:layout_marginStart="5dp"
+            android:textStyle="bold"
+
+            />
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="Phone Number"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            android:id="@+id/bookingf_phone_number"
+            android:textAlignment="viewEnd"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="5dp"
+            android:textStyle="bold"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Deceased Name"
+            android:id="@+id/booking_deceased_name"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            android:layout_marginStart="5dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_marginTop="25dp"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Deceased Gender"
+            android:id="@+id/deceased_booking_gender"
+            android:textColor="@android:color/black"
+            android:layout_below="@+id/booking_deceased_name"
+            android:textSize="14sp"
+            android:layout_marginStart="5dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_margin="5dp"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="From,To"
+            android:id="@+id/fromto"
+            android:textColor="@android:color/black"
+            android:layout_below="@+id/deceased_booking_gender"
+            android:textSize="14sp"
+            android:layout_marginStart="5dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_margin="5dp"
+
+            />
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Total Duration"-->
+            <!--android:id="@+id/booking_duration"-->
+            <!--android:textColor="@android:color/black"-->
+            <!--android:textSize="14sp"-->
+            <!--android:layout_below="@+id/fromto"-->
+            <!--android:layout_marginStart="5dp"-->
+            <!--android:gravity="center"-->
+            <!--android:textStyle="bold"-->
+            <!--android:layout_marginTop="10dp"-->
+
+            <!--/>-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Date Time"
+            android:id="@+id/request_date_time"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            android:layout_below="@+id/fromto"
+            android:layout_marginStart="5dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+
+            />
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Admitted By"-->
+            <!--android:id="@+id/request_admittedby"-->
+            <!--android:textColor="@android:color/black"-->
+            <!--android:textSize="14sp"-->
+            <!--android:layout_below="@+id/request_date_time"-->
+            <!--android:layout_marginStart="5dp"-->
+            <!--android:gravity="center"-->
+            <!--android:textStyle="bold"-->
+            <!--android:layout_marginTop="10dp"-->
+
+            <!--/>-->
+        <!--<Button-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_below="@+id/request_date_time"-->
+            <!--android:layout_marginLeft="60dp"-->
+            <!--android:layout_marginRight="20dp"-->
+            <!--android:layout_marginTop="20dp"-->
+            <!--android:id="@+id/Accept_btn"-->
+            <!--android:textColor="@android:color/white"-->
+            <!--android:text="Accept"-->
+            <!--android:textSize="18sp"-->
+
+            <!--android:background="@drawable/round_bg"-->
+
+            <!--/>-->
+        <!--<Button-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_below="@+id/request_date_time"-->
+            <!--android:layout_marginLeft="20dp"-->
+            <!--android:layout_marginRight="20dp"-->
+            <!--android:layout_marginTop="20dp"-->
+
+            <!--android:textColor="@android:color/white"-->
+            <!--android:text="Cancel"-->
+            <!--android:textSize="18sp"-->
+            <!--android:layout_toRightOf="@+id/Accept_btn"-->
+            <!--android:id="@+id/Cancel_btn"-->
+
+            <!--android:background="@drawable/round_bg"-->
+
+            <!--/>-->
+
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

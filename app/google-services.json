@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "1057727607147",
+    "firebase_url": "https://efuneral-6f164.firebaseio.com",
+    "project_id": "efuneral-6f164",
+    "storage_bucket": "efuneral-6f164.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1057727607147:android:4742d48287179f64fe1c2e",
+        "android_client_info": {
+          "package_name": "com.freddy.sample.mpesa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1057727607147-jkjmn6sdu41kkepf41jp3qnptudq3qci.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwqTS5y5OxsePWVGejeYi3DSGjuX07f8A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1057727607147-jkjmn6sdu41kkepf41jp3qnptudq3qci.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1057727607147:android:68cdabf5265c818bfe1c2e",
+        "android_client_info": {
+          "package_name": "com.freddygenicho.sample.mpesa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1057727607147-jkjmn6sdu41kkepf41jp3qnptudq3qci.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwqTS5y5OxsePWVGejeYi3DSGjuX07f8A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1057727607147-jkjmn6sdu41kkepf41jp3qnptudq3qci.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="com.freddy.sample.mpesa.MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="Opt to pay for your order?"
+        android:textAllCaps="true"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/nameET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Enter Your Full Names eg John Doe"
+        android:padding="16dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/round_border"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/phoneET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Enter Your Phone Number"
+       android:padding="16dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/round_border"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/amountET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+      android:padding="16dp"
+        android:hint="Amount"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/round_border"
+        android:inputType="number" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:onClick="startMpesa"
+        android:background="@drawable/round_bg"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:layout_margin="32dp"
+        android:textStyle="bold"
+        android:text="Pay" />
+
+</LinearLayout>

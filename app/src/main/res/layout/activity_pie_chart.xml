@@ -1,0 +1,235 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PieChartActivity">
+
+    <TextView
+        android:id="@+id/tc"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="12dp"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:layout_height="40dp"
+        android:background="@drawable/cell_shape"
+        android:gravity="center"
+        android:text=" Morgue Occupancy Pie Chart "
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TableLayout
+        android:id="@+id/tabla_cuerpo"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text=" Morgue Occupancy Analysis "
+                android:textColor="@android:color/white"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:typeface="serif" >
+            </TextView>
+        </TableRow>
+
+
+        <TableRow
+            android:id="@+id/tableRow13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+
+            <TextView
+                android:layout_width="135dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/table_cell_shape"
+                android:padding="15dp"
+                android:text="Category"
+                android:gravity="center"
+
+                android:textColor="@android:color/white" />
+
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/table_cell_shape"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Values"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@android:color/white"></TextView>
+        </TableRow>
+
+
+
+        <TableRow
+            android:id="@+id/tableRow9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+
+            <TextView
+                android:layout_width="135dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/table_cell_shape"
+                android:padding="15dp"
+                android:id="@+id/txttotalcapacity"
+                android:text="Total Capacity"
+                android:textColor="@android:color/white" />
+
+
+
+            <TextView
+                android:id="@+id/textView0"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/table_cell_shape"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="50"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@android:color/white"></TextView>
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+
+            <TextView
+                android:layout_width="135dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtoccupied"
+                android:background="@drawable/table_cell_shape"
+                android:padding="15dp"
+                android:text="Occupied Space"
+                android:textColor="@android:color/white"/>
+
+
+
+            <TextView
+                android:id="@+id/txtoccupiedvalue"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/table_cell_shape"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Occupied"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@android:color/white"></TextView>
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow51"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+
+
+            <TextView
+                android:layout_width="135dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtunoccupied"
+                android:background="@drawable/table_cell_shape"
+                android:padding="15dp"
+                android:text="Unoccupied Space"
+                android:textColor="@android:color/white"/>
+
+
+
+            <TextView
+                android:id="@+id/txtunoccupiedvalue"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/table_cell_shape"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="unOccupied"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@android:color/white"></TextView>
+        </TableRow>
+
+        <!--        <TableRow-->
+        <!--            android:id="@+id/tableRow2"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content" >-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView4"-->
+        <!--                android:layout_width="wrap_content"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:layout_weight="1"-->
+        <!--                android:background="@drawable/table_cell_shape"-->
+        <!--                android:gravity="center"-->
+        <!--                android:padding="5dp"-->
+        <!--                android:text="iPhone 5s"-->
+        <!--                android:textAppearance="?android:attr/textAppearanceSmall"-->
+        <!--                android:textColor="#fad06e" >-->
+        <!--            </TextView>-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView5"-->
+        <!--                android:layout_width="wrap_content"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:layout_weight="1"-->
+        <!--                android:background="@drawable/table_cell_shape"-->
+        <!--                android:gravity="center"-->
+        <!--                android:padding="5dp"-->
+        <!--                android:text="50000"-->
+        <!--                android:textAppearance="?android:attr/textAppearanceSmall"-->
+        <!--                android:textColor="#fad06e" >-->
+        <!--            </TextView>-->
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/textView6"-->
+        <!--                android:layout_width="wrap_content"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:layout_weight="3"-->
+        <!--                android:background="@drawable/table_cell_shape"-->
+        <!--                android:gravity="center"-->
+        <!--                android:padding="5dp"-->
+        <!--                android:text="Sept. 20"-->
+        <!--                android:textAppearance="?android:attr/textAppearanceSmall"-->
+        <!--                android:textColor="#fad06e" >-->
+        <!--            </TextView>-->
+        <!--        </TableRow>-->
+    </TableLayout>
+
+    <com.anychart.AnyChartView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="Hello World!"
+        android:id="@+id/chart"
+        android:layout_marginTop="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tc" />
+
+</android.support.constraint.ConstraintLayout>

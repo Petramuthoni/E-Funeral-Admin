@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.freddy.sample.mpesa">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="com.google.android.providers.gsf.permisson.READ_GSERVICES" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@drawable/launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:icon">
+        <activity android:name=".ManagerViewMorticiansActivity"></activity>
+        <activity
+            android:name=".MnagerRegisterMorticiansActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ManagerViewHearsePaymentReport" />
+        <activity android:name=".MorticianViewFuneralNotification" />
+        <activity android:name=".ManagerFilterHearseBookings" />
+        <activity android:name=".ManagerCheckHearseBookings" />
+        <activity android:name=".ManagerOccupancyReport" />
+        <activity android:name=".ManagerDashboard">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivitydashboard" />
+        <activity android:name=".AdminCheckPayments" />
+        <activity android:name=".MainActivity2" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".funeralservice">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Splashscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AdminCheckFuneralRequests" />
+        <activity android:name=".AdminBillingActivity" />
+        <activity android:name=".AdminViewFuneralPayments" />
+        <activity android:name=".AdminCheckHearsePaymentsActivity" />
+        <activity android:name=".AdminCheckHearseBookingsActivity" />
+        <activity android:name=".AdminViewFuneralNotification" />
+        <activity android:name=".DonationsRequestsAddActivity" />
+        <activity android:name=".DonationsRequestsHomeActivity" />
+        <activity android:name=".AdminLoginActivity" />
+        <activity android:name=".PieChartActivity" />
+        <activity android:name=".AdminUserProductsActivity" />
+        <activity android:name=".ViewPaymentReportActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HearseBookingActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AdminAddHearse"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ConfirmFinalOrderActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".MainActivityHearse" />
+        <activity android:name=".AdminMaintainProductsActivity" />
+        <activity android:name=".AdminNewOrdersActivity" />
+        <activity android:name=".SearchProductsActivity" />
+        <activity android:name=".CartActivity" />
+        <activity android:name=".AdminFilterMorgueOccupancyActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ProductDetailsActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".AdminHomeActivity" />
+        <activity
+            android:name=".GroupChatActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Chats"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Resetpassword"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Registration"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".login" />
+    </application>
+
+</manifest>

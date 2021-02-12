@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminAddHearse">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/select_hearse_image"
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:cropToPadding="false"
+       android:scaleType="centerCrop"
+        android:src="@drawable/camera"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        />
+
+
+    <EditText
+        android:id="@+id/Hearse_add_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/select_hearse_image"
+        android:inputType="textMultiLine"
+        android:layout_marginTop="20dp"
+        android:padding="20dp"
+        android:hint="Hearse Name..."
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:background="@drawable/round_border"
+        />
+
+
+    <EditText
+        android:id="@+id/Hearse_add_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Hearse_add_name"
+        android:inputType="textMultiLine"
+        android:layout_marginTop="10dp"
+        android:padding="20dp"
+        android:hint="Hearse Description..."
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:background="@drawable/round_border"
+        />
+
+
+
+
+
+    <Button
+        android:id="@+id/add_new_hearse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Hearse_add_description"
+        android:text="Add Hearse"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:background="@drawable/round_bg"
+        android:padding="17dp"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+
+        />
+    </RelativeLayout>
+
+
+</ScrollView>
